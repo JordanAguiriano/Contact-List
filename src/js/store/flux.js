@@ -4,8 +4,12 @@ const getState = ({ getStore, setStore }) => {
 			//Your data structures, A.K.A Entities
 		},
 		actions: {
-			//(Arrow) Functions that update the Store
-			// Remember to use the scope: scope.state.store & scope.setState()
+			addContact: (a, b, c, d) => {
+				console.log("clicked", a);
+				console.log("clicked", b);
+				console.log("clicked", c);
+				console.log("clicked", d);
+			}
 		}
 	};
 };
